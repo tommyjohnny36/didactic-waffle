@@ -2,9 +2,6 @@ import pandas as pd
 from  flask import Flask, render_template
 import json
 
-
-
-
 def get_age_segment(age):
     if age <= 16:
         return '0-16'
